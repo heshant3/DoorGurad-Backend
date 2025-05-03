@@ -172,7 +172,7 @@ onValue(lockRef, async (snapshot) => {
       const mailOptions = {
         from: `"DoorGuard" <${process.env.EMAIL_USER}>`,
 
-        to: "heshant3@gmail.com", // Replace with the recipient's email
+        to: "Oshanvimukththi@gmail.com", // Replace with the recipient's email
         subject: "Door Lock/Unlock Event Triggered",
         html: emailBody, // Use the HTML table as the email body
       };
